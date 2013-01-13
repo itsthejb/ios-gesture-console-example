@@ -18,6 +18,7 @@
 		299FB38616A3561B00F1F42D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 299FB38516A3561B00F1F42D /* Default-568h@2x.png */; };
 		299FB38916A3561B00F1F42D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299FB38716A3561B00F1F42D /* MainStoryboard.storyboard */; };
 		299FB38C16A3561B00F1F42D /* JCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 299FB38B16A3561B00F1F42D /* JCViewController.m */; };
+		299FB39416A3567800F1F42D /* JCConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 299FB39316A3567800F1F42D /* JCConsoleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		299FB38816A3561B00F1F42D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		299FB38A16A3561B00F1F42D /* JCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCViewController.h; sourceTree = "<group>"; };
 		299FB38B16A3561B00F1F42D /* JCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCViewController.m; sourceTree = "<group>"; };
+		299FB39216A3567800F1F42D /* JCConsoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCConsoleViewController.h; sourceTree = "<group>"; };
+		299FB39316A3567800F1F42D /* JCConsoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCConsoleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				299FB38A16A3561B00F1F42D /* JCViewController.h */,
 				299FB38B16A3561B00F1F42D /* JCViewController.m */,
 				299FB37616A3561B00F1F42D /* Supporting Files */,
+				299FB39216A3567800F1F42D /* JCConsoleViewController.h */,
+				299FB39316A3567800F1F42D /* JCConsoleViewController.m */,
 			);
 			path = console;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				299FB37C16A3561B00F1F42D /* main.m in Sources */,
 				299FB38016A3561B00F1F42D /* JCAppDelegate.m in Sources */,
 				299FB38C16A3561B00F1F42D /* JCViewController.m in Sources */,
+				299FB39416A3567800F1F42D /* JCConsoleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
